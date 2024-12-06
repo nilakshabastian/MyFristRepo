@@ -10,7 +10,7 @@ public class Login extends BasePage {
     private final By password_txtBox = By.xpath("//INPUT[@name='password']");
     private final By btn = By.xpath("//button[@type='submit']");
 
-
+   //ADD NEW COMMENT
     public Login(WebDriver uiDriver) {
         super(uiDriver);
         this.uiDriver = uiDriver;
